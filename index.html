@@ -44,10 +44,6 @@
                 <th>W</th>
                 <th>Latitude</th>
                 <th>Longitude</th>
-                <th>pH</th>
-                <th>EC (µS/cm)</th>
-                <th>K (mg/Kg)</th>
-                <th>P (mg/kg)</th>
             </tr>
         </thead>
         <tbody id="data-table-body">
@@ -89,10 +85,6 @@
                         <td>${row.W}</td>
                         <td>${row.latitude}</td>
                         <td>${row.longitude}</td>
-                        <td>${row.pH}</td>
-                        <td>${row["EC (µS/cm)"]}</td>
-                        <td>${row["K (mg/Kg)"]}</td>
-                        <td>${row["P (mg/kg)"]}</td>
                     `;
                     tableBody.appendChild(tr);
                 });

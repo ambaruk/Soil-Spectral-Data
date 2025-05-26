@@ -90,9 +90,9 @@
                         <td>${row.latitude}</td>
                         <td>${row.longitude}</td>
                         <td>${row.pH}</td>
-                        <td>${row.EC (µS/cm)}</td>
-                        <td>${row.K (mg/Kg)}</td>
-                        <td>${row.P (mg/kg)}</td>
+                        <td>${row["EC (µS/cm)"]}</td>
+                        <td>${row["K (mg/Kg)"]}</td>
+                        <td>${row["P (mg/kg)"]}</td>
                     `;
                     tableBody.appendChild(tr);
                 });
